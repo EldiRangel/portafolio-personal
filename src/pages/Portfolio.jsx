@@ -3,17 +3,18 @@ import { TechnologyChart, StatusChart } from '../components/Charts';
 
 const Portfolio = () => {
   return (
- 
     <div className="container pt-5 pb-4">
       <div className="row">
         
         <div className="col-md-4 mb-4">
           <div className="card shadow border-0 text-center p-4">
             <img 
-              src="https://ui-avatars.com/api/?name=Eldi+Rangel&size=200&background=0D8ABC&color=fff" 
+              src="/portafolio3.jpg" 
               alt="Perfil" 
               className="rounded-circle mx-auto mb-3" 
               width="150" 
+              height="150"
+              style={{ objectFit: 'cover' }}
             />
             <h2>Eldi Rangel</h2>
             <h5 className="text-muted">Ingeniería en Computación</h5>
@@ -29,13 +30,12 @@ const Portfolio = () => {
           </div>
         </div>
 
-       
         <div className="col-md-8">
           <div className="card shadow border-0 p-4 mb-4">
             <h4 className="mb-4">Estadísticas de Proyectos</h4>
             <div className="row">
               <div className="col-md-6 text-center">
-                <h6>Tecnologías Utilizadas</h6>
+                <h6>Lenguajes/tecgnologias Utilizadas</h6>
                 <TechnologyChart />
               </div>
               <div className="col-md-6 text-center">
