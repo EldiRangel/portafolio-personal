@@ -10,20 +10,22 @@ import {
   ResponsiveContainer 
 } from 'recharts';
 
-
+// Datos actualizados con los lenguajes de programación reales
 const techData = [
-  { name: 'TypeScript', value: 7 },
-  { name: 'JavaScript', value: 3 },
-
+  { name: 'JavaScript', value: 2 }, // Visualizador y Portafolio
+  { name: 'Java', value: 1 },       // Casino
+  { name: 'TypeScript', value: 1 }, // Gestor de Contactos
+  { name: 'Otros (C#/C++)', value: 1 } // Yakuza Game
 ];
 
+// Ahora tienes 5 proyectos terminados en total
 const statusData = [
-  { name: 'Terminado', cantidad: 3 },
+  { name: 'Terminado', cantidad: 5 },
   { name: 'En desarrollo', cantidad: 0 }
 ];
 
-// Colores para el gráfico de torta
-const COLORS = ['#0088FE', '#00C49F'];
+// Colores ampliados para el gráfico de torta
+const COLORS = ['#F7DF1E', '#b07219', '#3178C6', '#8884d8'];
 
 export const TechnologyChart = () => {
   return (
